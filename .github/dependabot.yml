@@ -15,7 +15,7 @@ updates:
         dependency-type: development
 
   # The native client has its own package.json (and its own bun.lock).
-  - package-ecosystem: npm
+  - package-ecosystem: bun
     directory: /sonia-gtk4
     schedule:
       interval: weekly
